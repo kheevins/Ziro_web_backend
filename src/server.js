@@ -29,7 +29,7 @@ const iniciarServidor = async () => {
 
   const PORT = process.env.PORT || 3000;
 
-  app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
+  app.listen(port, () => console.log(`Servidor corriendo en http://localhost:${port}`));
   });
 };
 
