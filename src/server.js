@@ -9,7 +9,6 @@ const leaderboardRoutes = require('./routes/leaderboardRoutes')
 const prizeRoutes = require('./routes/prizeRoutes');
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 
 app.use(cors());
